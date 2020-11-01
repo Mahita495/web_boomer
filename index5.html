@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <p id = "demo"></p>
+    <script>
+      function cracking_joke(){
+      var jokes = ["I ate a clock yesterday, it was very time-consuming."," I failed math so many times at school, I can’t even count.","I want to die peacefully in my sleep, like my grandfather… Not screaming and yelling like the passengers in his car.","Most people are shocked when they find out how bad I am as an electrician.","Just burned 2,000 calories. That’s the last time I leave brownies in the oven while I nap.","I advise you, dont mess with me, I know karate, king fu, judo, and 28 other dangerous words","Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes."];
+        return jokes[Math.floor(Math.random() * jokes.length)];
+        }
+        
+     document.getElementById("demo").innerHTML = cracking_joke();
+    </script>
+    <a href="https://CircularInfantileCalculator.ksumanjali478.repl.co"><button class = "div">Return to Home page</button></a>
+  </body>
+</html>
