@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+         <h3>Hiii...</h3>
+            <h3>Iam Boomer</h3>
+    <div id="main">
+    <h3>Hey!!!please click the button welcome</h3>
+    <button onclick="myFunction()">Welcome</button></div>
+    <p id="demo"></p>
+    <script>
+      function myFunction() {
+         var person = prompt("Please enter your name", "");
+        if (person != null) {
+         document.getElementById("demo").innerHTML =
+         "Hello " + person + "! How are you today? ** hope u can get select good course ****Please click the below link to enter into next page ";
+       }
+    }
+    </script>
+    <script>var myDate = new Date(); 
+        var myDay = myDate.getDay(); 
+        
+        // Array of days. 
+        var weekday = ['Sunday', 'Monday', 'Tuesday', 
+            'Wednesday', 'Thursday', 'Friday', 'Saturday' 
+        ]; 
+        document.write("Today is : " + weekday[myDay]); 
+        document.write("<br/>"); 
+        
+        // get hour value. 
+        var hours = myDate.getHours(); 
+        var ampm = hours >= 12 ? 'PM' : 'AM'; 
+        hours = hours % 12; 
+        hours = hours ? hours : 12; 
+        var minutes = myDate.getMinutes(); 
+        minutes = minutes < 10 ? '0' + minutes : minutes; 
+        var myTime = hours + " " + ampm + " : " + minutes +  
+            " : " + myDate.getMilliseconds(); 
+        document.write("\tCurrent time is : " + myTime); 
+        </script>
+    </br>
+<a href="https://CircularInfantileCalculator.ksumanjali478.repl.co" class="div">NEXT</a>
+</body>
+</html>
