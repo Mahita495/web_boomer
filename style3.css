@@ -1,0 +1,23 @@
+.div { 
+    background-color: white; 
+    border: 5px solid black; 
+    color: green; 
+    padding: 5px 10px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 20px; 
+    margin: 10px 30px; 
+    cursor: pointer; 
+    text-decoration:none; 
+  } 
+
+body {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR8igyM4FlTEipw9s013CfnjyGEx43EOmmazw&usqp=CAU");
+  background-color: #cccccc; 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  text-align: center; 
+  paddling: 100%
+}
