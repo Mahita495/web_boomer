@@ -1,0 +1,24 @@
+body {
+  background-image: url("https://thumbs.dreamstime.com/z/yellow-balloons-smile-background-fun-character-people-bright-balloon-smiley-funny-friends-comic-text-humor-message-greeting-card-111498530.jpg");
+  background-color: #cccccc; 
+  height: 500px; 
+  background-position: center; 
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-weight: bold;
+  font-size: 30px
+  
+
+}
+.div { 
+    background-color: white; 
+    border: 5px solid black; 
+    color: green; 
+    padding: 5px 10px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 20px; 
+    margin: 10px 30px; 
+    cursor: pointer; 
+    text-decoration:none; 
+  }
