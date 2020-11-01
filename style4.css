@@ -1,0 +1,82 @@
+#main_container {
+    width: 400px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    font-family: sans-serif;
+    border-radius: 20px;
+    border: 3px solid #999;
+}
+
+#birth_date_input, #age_container {
+    text-align: center;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#age_container {
+    margin: 50px 5px;
+    padding: 3px;
+    border-radius: 50px;
+    border: 1px solid #000;
+    font-weight: bolder;
+    background: rgb(236, 216, 229);
+    font-size: 20px;
+    line-height: 40px;
+}
+
+#calculate {
+    cursor: pointer;
+    text-align: center;
+    width: 200px;
+    padding: 5px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #999;
+    border-radius: 10px;
+    background: rgb(255, 25, 56);
+    background: -webkit-gradient(linear, left top, left bottom, from(#ee7cbf), to(#E6B800));
+	background: -moz-linear-gradient(top, #FFD119, #E6B800);
+    font-weight: bold;
+    height: 28px;
+    box-shadow: 0 -8px inset;
+}
+#calculate:hover {
+    background: -webkit-gradient(linear, left top, left bottom, from(#E6B800), to(#FFD119));
+	background: -moz-linear-gradient(top, #E6B800, #FFD119);
+    margin-top: 13px;
+    height: 25px;
+    box-shadow: 0 -5px inset;
+}
+
+#calculate:active {
+    background: #403300;
+    padding-top: 10px;
+    box-shadow: 0 5px #000 inset;
+    height: 20px;
+}
+
+#age {
+    padding: 5px;
+    border: 3px dashed #AAA;
+    background-color:white;
+}
+html{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbm50wkCYcbp61nyb0MdQW4wnlwazmdjnHug&usqp=CAU")
+}
+
+.div { 
+    background-color: white; 
+    border: 5px solid black; 
+    color: green; 
+    padding: 5px 10px; 
+    text-align: center; 
+    display: inline-block; 
+    font-size: 20px; 
+    margin: 10px 30px; 
+    cursor: pointer; 
+    text-decoration:none; 
+  } 
