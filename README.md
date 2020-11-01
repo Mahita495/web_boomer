@@ -17,7 +17,11 @@ https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javasc
 
 # repl.it LINK
 
-https://darkmagentadarkexponent.harshitha02.repl.co/
+https://repl.it/@ksumanjali478/CircularInfantileCalculator#index.html
+https://repl.it/@19pa1a0478/SuperbAmbitiousTelephones#index.html
+https://repl.it/@19pa1a0478/FrizzySpecificLegacy#index.html
+https://repl.it/@harshitha02/ConsiderableEquatorialTriggers#index.html
+https://repl.it/@MahitaV/PeruDarkorchidInitialization#index.html
 
 
 # Collaborators
